@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    max-width: 900px;
+    margin: auto;
+    padding: 40px;
+}
+
+h1 {
+    color: #232F3E;
+}
+
+h2 {
+    color: #FF9900;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: square;
+}
