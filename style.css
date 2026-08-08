@@ -57,28 +57,21 @@ body > p {
 /* Lists */
 
 ul {
-    padding-left: 20px;
+    padding-left: 25px;
 }
 
 li {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
-/* Project cards */
+/* Projects */
 
 .project {
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 24px;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 25px;
     border-radius: 16px;
-    margin-top: 18px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s ease, border-color 0.2s ease;
-}
-
-.project:hover {
-    transform: translateY(-3px);
-    border-color: rgba(255, 153, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    margin-top: 15px;
 }
 
 /* Links */
