@@ -1,145 +1,127 @@
-* {
-    box-sizing: border-box;
-}
+/* General Page Styling */
 
 body {
-    margin: 0;
-    padding: 50px 25px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-    background: #0b0b0f;
-    color: #e8e8ed;
-    line-height: 1.7;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-/* Main container */
-body {
-    max-width: 1000px;
-    margin: 0 auto;
+
+/* Hero Section */
+
+.hero {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
 }
 
-/* Main heading */
-h1 {
-    color: #ffffff;
-    font-size: 56px;
-    margin: 0 0 10px 0;
-    font-weight: 800;
-    letter-spacing: -2px;
+.hero h1 {
+    margin: 0;
+    font-size: 42px;
 }
 
-/* Section headings */
-h2 {
-    color: #ff9900;
-    font-size: 26px;
-    margin-top: 45px;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #ff9900;
+.hero p {
+    margin-top: 10px;
+    font-size: 20px;
 }
 
-/* Smaller headings */
-h3 {
-    color: #ffffff;
-    font-size: 21px;
-    margin-top: 25px;
+
+/* Main Content */
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
 }
 
-/* AWS title */
-header h2 {
-    margin-top: 0;
-    border-bottom: none;
-    padding-bottom: 0;
+
+/* Cards */
+
+.card {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-/* Tagline */
-.tagline {
-    color: #b8b8c2;
-    font-size: 20px;
-    margin-bottom: 25px;
-    font-style: italic;
+
+/* Headings */
+
+.card h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
-/* Visitor counter */
-body > p {
-    color: #888894;
-    font-size: 14px;
+.card h3 {
+    margin-top: 20px;
 }
 
-/* About Me text */
-main p {
-    color: #cfcfd6;
-    font-size: 17px;
+
+/* Paragraphs */
+
+.card p {
+    text-align: left;
+    margin-bottom: 15px;
 }
 
-/* Skills */
-ul {
-    padding-left: 25px;
+
+/* Lists */
+
+.card ul {
+    padding-left: 25px;
 }
 
-li {
-    margin-bottom: 8px;
-    color: #d8d8df;
+.card li {
+    margin-bottom: 8px;
 }
 
-li::marker {
-    color: #ff9900;
-}
-
-/* Project cards */
-.project {
-    background: #15151c;
-    border: 1px solid #292934;
-    border-left: 4px solid #ff9900;
-    border-radius: 12px;
-    padding: 25px;
-    margin: 25px 0;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
-}
-
-.project h3 {
-    margin-top: 0;
-    color: #ffffff;
-}
-
-.project p {
-    margin-bottom: 0;
-}
 
 /* Links */
-a {
-    color: #ff9900;
-    text-decoration: none;
-    font-weight: 600;
+
+.contact-btn {
+    color: #2563eb;
+    text-decoration: none;
+    margin-left: 8px;
 }
 
-a:hover {
-    text-decoration: underline;
+.contact-btn:hover {
+    text-decoration: underline;
 }
 
-/* Strong text */
-strong {
-    color: #ffffff;
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #1f2937;
+    color: white;
+    margin-top: 40px;
 }
 
-/* Mobile */
+
+/* Mobile Friendly */
+
 @media (max-width: 600px) {
-    body {
-        padding: 30px 20px;
-    }
 
-    h1 {
-        font-size: 42px;
-    }
+    .hero h1 {
+        font-size: 32px;
+    }
 
-    h2 {
-        font-size: 23px;
-        margin-top: 35px;
-    }
+    .hero p {
+        font-size: 18px;
+    }
 
-    .tagline {
-        font-size: 18px;
-    }
+    main {
+        padding: 0 15px;
+    }
 
-    .project {
-        padding: 20px;
-    }
+    .card {
+        padding: 20px;
+    }
 }
