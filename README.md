@@ -4,7 +4,7 @@ A cloud-hosted resume website built as part of the Cloud Resume Challenge.
 
 ## 🌐 Live Website
 
-[View my cloud resume](https://your-cloudfront-domain-here)
+[View my cloud resume](https://dq2ceao8limaa.cloudfront.net)
 
 ## 📌 Project Overview
 
