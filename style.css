@@ -1,6 +1,14 @@
-/* General Page Styling */
+/* 1. Reset Defaults & Base Styles */
+* {
+    box-sizing: border-box;
+}
 
 body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #222;
@@ -9,9 +17,7 @@ body {
     line-height: 1.6;
 }
 
-
-/* Hero Section */
-
+/* 2. Hero Section */
 .hero {
     background-color: #1f2937;
     color: white;
@@ -26,63 +32,61 @@ body {
 
 .hero p {
     margin-top: 10px;
+.hero p {
+    margin-top: 10px;
     font-size: 20px;
 }
 
-
-/* Main Content */
-
+/* 3. Main Layout Structure */
 main {
     max-width: 900px;
     margin: 40px auto;
     padding: 0 20px;
 }
 
-
-/* Cards */
-
+/* 4. Cards & Cleaned Structural Styles */
 .card {
     background-color: white;
     padding: 30px;
     margin-bottom: 25px;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    text-align: left; /* Combined from duplicate rules */
 }
-
-
-/* Headings */
 
 .card h2 {
     margin-top: 0;
     margin-bottom: 20px;
+    border-bottom: 1px solid #e5e7eb; 
+    padding-bottom: 8px;
 }
 
 .card h3 {
-    margin-top: 20px;
+    margin-top: 25px; 
+    margin-bottom: 10px; 
 }
-
-
-/* Paragraphs */
 
 .card p {
     text-align: left !important;
-    word-spacing: normal;
-    letter-spacing: normal;
+    text-align-last: left !important;
+    word-spacing: normal !important;
+    letter-spacing: normal !important;
+    white-space: normal !important;
     margin-bottom: 15px;
 }
 
-/* Lists */
-
+/* 5. Lists & Typography Elements */
 .card ul {
+    margin-top: 10px; 
+    margin-bottom: 20px; 
     padding-left: 25px;
 }
 
 .card li {
+.card li {
     margin-bottom: 8px;
+    line-height: 1.6;
 }
-
-
-/* Links */
 
 .contact-btn {
     color: #2563eb;
@@ -94,9 +98,7 @@ main {
     text-decoration: underline;
 }
 
-
-/* Footer */
-
+/* 6. Footer Section */
 footer {
     text-align: center;
     padding: 25px;
@@ -105,11 +107,8 @@ footer {
     margin-top: 40px;
 }
 
-
-/* Mobile Friendly */
-
+/* 7. Mobile Responsive Overrides */
 @media (max-width: 600px) {
-
     .hero h1 {
         font-size: 32px;
     }
@@ -126,12 +125,4 @@ footer {
         padding: 20px;
     }
 }
-.card {
-    text-align: left !important;
-}
 
-.card p {
-    text-align: left !important;
-    word-spacing: normal !important;
-    letter-spacing: normal !important;
-}
