@@ -32,8 +32,6 @@ body {
 
 .hero p {
     margin-top: 10px;
-.hero p {
-    margin-top: 10px;
     font-size: 20px;
 }
 
@@ -82,7 +80,6 @@ main {
     padding-left: 25px;
 }
 
-.card li {
 .card li {
     margin-bottom: 8px;
     line-height: 1.6;
